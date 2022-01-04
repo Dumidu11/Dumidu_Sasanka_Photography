@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932425329700",
+    "project_id": "photography-d9f6c",
+    "storage_bucket": "photography-d9f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932425329700:android:5a382d395a51ebe7653cb1",
+        "android_client_info": {
+          "package_name": "com.example.dumidusasankaphotography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932425329700-3u3dhnlgrejdhp1e7viuc4i4jkup58b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtUszqbX-Vdwyu8XrqwScrDgEjIi7JZyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932425329700-3u3dhnlgrejdhp1e7viuc4i4jkup58b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profiledumiduActivity"
+    android:background="@drawable/background">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/chamii"
+        android:src="@drawable/chamika"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chamika Viranga"
+        android:textColor="#000"
+        android:layout_below="@+id/chamii"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textSize="38sp"/>
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chamii"
+        android:layout_marginTop="122dp"
+        android:text="Wedding Photgrapher"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/job"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:layout_marginLeft="140dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bandarawela"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_baseline_contact_phone_24"
+            android:layout_marginLeft="140dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0713317190"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear2"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_baseline_accessibility_24"
+            android:layout_marginLeft="140dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 Years"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear3"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_baseline_school_24"
+            android:layout_marginLeft="140dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undergraduate - University Of Moratuwa"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear5"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear4"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_baseline_textsms_24"
+            android:layout_marginLeft="140dp"
+            >
+
+        </ImageView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="100dp"
+            android:hint="recomened"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:id="@+id/ctxtt">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear6"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear5"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="170dp"
+            android:layout_marginLeft="170dp"
+            android:background="#C178AA"
+            android:text="Submit"
+            android:textSize="25dp"
+            android:id="@+id/btc">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dumidu Sasanka Photography</string>
+    <string name="name">Name</string>
+    <string-array name="Names">
+        <item>Dumidu Sasanka</item>
+        <item>Chamika Viranga</item>
+        <item>Kushan Aththanayaka</item>
+        <item>Anuradha Udayanga</item>
+    </string-array>
+
+    <string name="name2">Name</string>
+    <string-array name="Names2">
+        <item>Confrom</item>
+        <item> Cancel </item>
+    </string-array>
+</resources>

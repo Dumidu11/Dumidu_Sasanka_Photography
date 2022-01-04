@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dumidusasankaphotography">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DumiduSasankaPhotography">
+        <activity android:name=".profilekushanActivity"
+            android:parentActivityName=".aboutusActivity" ></activity>
+        <activity android:name=".profileanuradhaActivity"
+            android:parentActivityName=".aboutusActivity"/>
+        <activity android:name=".profileChamikaActivity"
+            android:parentActivityName=".aboutusActivity"/>
+        <activity
+            android:name=".FullScreenActivity4"
+            android:parentActivityName=".CorporateActivity" />
+        <activity
+            android:name=".FullScreenActivity3"
+            android:parentActivityName=".HomecomingsActivity" />
+        <activity
+            android:name=".FullScreenActivity2"
+            android:parentActivityName=".WeddingsActivity" />
+        <activity
+            android:name=".FullScreenActivity"
+            android:parentActivityName=".BirthdaysActivity" />
+        <activity
+            android:name=".updateEventActivity"
+            android:parentActivityName=".MainadminActivity" />
+        <activity
+            android:name=".bookingsaveActivity"
+            android:parentActivityName=".MainadminActivity" />
+        <activity android:name=".MainadminActivity" />
+        <activity
+            android:name=".profiledumiduActivity"
+            android:parentActivityName=".aboutusActivity" />
+        <activity
+            android:name=".CorporateActivity"
+            android:parentActivityName=".albumActivity" />
+        <activity
+            android:name=".HomecomingsActivity"
+            android:parentActivityName=".albumActivity" />
+        <activity
+            android:name=".WeddingsActivity"
+            android:parentActivityName=".albumActivity" />
+        <activity
+            android:name=".BirthdaysActivity"
+            android:parentActivityName=".albumActivity" />
+        <activity
+            android:name=".aboutusActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".eventActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".albumActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bookingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".adminloginActivity" />
+        <activity android:name=".useloginActivity" />
+        <activity android:name=".signupActivity" />
+        <activity android:name=".startActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

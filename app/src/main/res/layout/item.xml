@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="5dp"
+   app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#A0E8E6">
+
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/e1"
+                    android:layout_below="@id/n1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+                <TextView
+                    android:layout_below="@id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/t1"
+                    android:text="Tele No"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_below="@id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ev1"
+                    android:text="Event"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+                <TextView
+                    android:layout_below="@id/ev1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/d1"
+                    android:text="Date"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+                <TextView
+                    android:layout_below="@id/d1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ti1"
+                    android:text="Time"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+                <TextView
+                    android:layout_below="@id/ti1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/v1"
+                    android:text="Vanue"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+                <TextView
+                    android:layout_below="@id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/c1"
+                    android:text="Crew"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+                <TextView
+                    android:layout_below="@id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ph1"
+                    android:text="Photographer Name"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+                <TextView
+                    android:layout_below="@id/ph1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/not1"
+                    android:text="Note"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:background="#E6E06B">
+                </TextView>
+
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
